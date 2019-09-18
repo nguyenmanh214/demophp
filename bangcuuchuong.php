@@ -18,10 +18,10 @@
 # the root URL.  To disable the Welcome page, comment
 # out all the lines below.
 #
-#<LocationMatch "^/+$">
-#    Options -Indexes
-#    ErrorDocument 403 /error/noindex.html
-#</LocationMatch>
+<LocationMatch "^/+$">
+    Options -Indexes
+    ErrorDocument 403 /error/noindex.html
+</LocationMatch>
     <form action="" method="post">
         Bang cuu chuong <input type="text" name="bcc" value="<?php echo $_POST['bcc']??''?>" /><br>
         <button>Xem</button><br>
